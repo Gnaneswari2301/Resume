@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: 
+
+Sitemap: https://gnaneswari2301.github.io/Resume/sitemap.xml
