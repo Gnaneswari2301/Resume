@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#05040c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f1e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Accent circles with glow -->
+  <circle cx="150" cy="100" r="120" fill="#a855f7" opacity="0.2" filter="url(#glow)"/>
+  <circle cx="1050" cy="550" r="150" fill="#06b6d4" opacity="0.15" filter="url(#glow)"/>
+  
+  <!-- Title -->
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    Pakki Gnaneswari
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#a7f3d0">
+    Full Stack Developer
+  </text>
+  
+  <!-- Description -->
+  <text x="600" y="330" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#cbd5e1">
+    Building AI-Ready Cloud-Aware Web Products
+  </text>
+  
+  <!-- Tech stack -->
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#94a3b8">
+    React • Node.js • PostgreSQL • AWS • Cloud Computing
+  </text>
+  
+  <!-- Corner accent -->
+  <line x1="100" y1="550" x2="250" y2="550" stroke="#06b6d4" stroke-width="3"/>
+  <line x1="100" y1="550" x2="100" y2="600" stroke="#06b6d4" stroke-width="3"/>
+  
+  <line x1="1100" y1="50" x2="1100" y2="120" stroke="#a855f7" stroke-width="3"/>
+  <line x1="1100" y1="50" x2="1000" y2="50" stroke="#a855f7" stroke-width="3"/>
+</svg>

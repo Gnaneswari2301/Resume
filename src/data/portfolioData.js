@@ -12,7 +12,7 @@ export const personalInfo = {
   email: 'janupakki@gmail.com',
   github: 'https://github.com/Gnaneswari2301',
   linkedin: 'https://www.linkedin.com/in/gnaneswari-pakki-a8a30a289',
-  resumeUrl: '/Pakki_Gnaneswari_Resume.pdf',
+  resumeUrl: './Pakki_Gnaneswari_Resume.pdf',
 }
 
 export const about =
